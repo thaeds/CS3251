@@ -4,6 +4,6 @@
 #pragma once
 
 class Client {
-    SetServerAddress(size_t port);
+    bool SetServerAddress(unsigned short port);
 };
 

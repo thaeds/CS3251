@@ -3,3 +3,7 @@
 //
 
 #include "client.h"
+
+bool Client::SetServerAddress(unsigned short port) {
+    return false;
+}

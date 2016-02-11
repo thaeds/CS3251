@@ -1,4 +1,5 @@
 // Name: Alex Gurney
+// Email: alexander.gurney3@gatech.edu
 // Class: CS 3251, Computer Networking
 // Date: 2/11/2016
 // Assignment: Programming Assignment 1, Socket Basics

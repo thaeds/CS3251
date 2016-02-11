@@ -4,11 +4,10 @@
 
 #pragma once
 
-#include "../network/network.h"
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <string>
 
-namespace io {
-    struct in_addr ParseIPAddress(char* str);
-    inParsePort(char* str);
-    ParseID(char* str);
-    ParseParam(char* str);
-}
+std::string ParseIPAddress(char* str);
+unsigned short inParsePort(char* str);
+std::string ParseString(char* str);
